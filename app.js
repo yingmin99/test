@@ -7,7 +7,7 @@ const port = 3001;
 app.set("port", port);
 
 app.get("/", (req, res) => {
-  res.send("Hello world!");
+  res.send("알뜰리에 홈페이지");
 });
 
 app.listen(port, () => console.log("Listening on", port));
